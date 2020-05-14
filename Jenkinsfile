@@ -9,7 +9,7 @@ pipeline {
 
     stage('Staging') {
       steps {
-        sh 'sh \'tidy -q -e *.html\''
+        sh '\'tidy -q -e *.html\''
       }
     }
 
